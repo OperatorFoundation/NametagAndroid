@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "org.operatorfoundation.nametag"
-    compileSdk = 34
+    compileSdk = 33
 
     defaultConfig {
         minSdk = 24
