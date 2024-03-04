@@ -3,7 +3,7 @@ package org.operatorfoundation.nametag
 import org.operatorfoundation.keychainandroid.PublicKey
 import org.operatorfoundation.keychainandroid.Signature
 
-class SignaturePage
+class SignaturePage(val signature: Signature, val publicKey: PublicKey)
 {
     fun isValidSignature(data: ByteArray): Boolean
     {
